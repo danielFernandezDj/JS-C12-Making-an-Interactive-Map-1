@@ -9,15 +9,23 @@ body {
 
 main {
     border: 1px solid #003666;
-    disp
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #main-section {
     border: 1px solid #003666;
+    min-height: 15vh;
+    display: flex;
+    flex-flow: wrap column;
+    align-content: space-evenly;
 }
 
-
 #map {
-    border: 1px solid #003666;
-    background-color: ;
+    /* border: 1px solid #003666; */
+    background-color: rgb(63, 63, 170);
+    height: 80vh;
+    width: 90vw;
 }
